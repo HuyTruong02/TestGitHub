@@ -11,6 +11,10 @@ Button btn;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        anhxa();
+    }
 
+    public void anhxa(){
+        btn = findViewById(R.id.btn);
     }
 }
